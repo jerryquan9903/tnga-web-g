@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap');
+
+.projectWrapper {
+    background-color: black;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+}
+
+.projectWrapperMobile {
+    background-color: black;
+    padding-top: 50px;
+    width: 100%;
+    margin: auto;
+    align-content: center;
+}

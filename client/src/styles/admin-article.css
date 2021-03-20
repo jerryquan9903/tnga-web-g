@@ -1,0 +1,48 @@
+.textArea {
+    width: 600px;
+    height: 400px;
+}
+
+.addArticleWrapper {
+    display: grid;
+    color: black;
+    grid-template-columns: 80%;
+    height: 100%;
+}
+
+.singleAddArticleWrapper {
+    display: grid;
+    grid-template-columns: 75% 15% 10%;
+    grid-template-rows: 100%;
+    flex-direction: row;
+}
+
+.addButton {
+    height: 100%;
+}
+
+.textAreaAdd {
+    width: 600px;
+    height: 400px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.titleAdd {
+    width: 600px;
+    height: 100px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.formGridAdd {
+    display: grid;
+    grid-template-columns: 80px 600px 50px;
+    grid-column-gap: 20px;
+    justify-items: center;
+    padding: 10px;
+}
+
+.saveButtonAdd {
+  box-sizing: border-box;
+}

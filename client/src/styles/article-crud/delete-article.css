@@ -1,0 +1,17 @@
+.deleteArticleWrapperDelete {
+    display: grid;
+    color: black;
+    grid-template-columns: 80%;
+    height: 100%;
+}
+
+.singleArticleWrapperDelete {
+    display: grid;
+    grid-template-columns: 75% 15% 10%;
+    grid-template-rows: 100%;
+    flex-direction: row;
+}
+
+.deleteButtonDelete {
+    height: 100%;
+}

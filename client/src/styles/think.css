@@ -1,0 +1,70 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+  
+.allText {
+    padding-top: 18%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100% !important;
+    justify-content: center;
+    align-items: center;
+}
+  
+.bigText {
+    width: 80%;
+    text-align: center;
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+    animation: fade-in 1s;
+}
+  
+.smallText {
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Inter';
+    font-weight: 300;
+    padding-bottom: 550px;
+    width: 80%;
+    font-size: 15px;
+    color: white;
+    animation: fade-in 1s;
+    text-align: center;
+}
+
+video {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.rpVideo {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+}

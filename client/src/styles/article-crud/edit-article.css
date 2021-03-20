@@ -1,0 +1,43 @@
+.editArticleWrapperEdit {
+    display: grid;
+    color: black;
+    grid-template-columns: 80%;
+    height: 100%;
+}
+
+.singleEditArticleWrapperEdit {
+    display: grid;
+    grid-template-columns: 75% 15% 10%;
+    grid-template-rows: 100%;
+    flex-direction: row;
+}
+
+.editButtonEdit {
+    height: 100%;
+}
+
+.textAreaEdit {
+    width: 600px;
+    height: 400px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.titleEdit {
+    width: 600px;
+    height: 100px;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.formGridEdit {
+    display: grid;
+    grid-template-columns: 80px 600px 50px;
+    grid-column-gap: 20px;
+    justify-items: center;
+    padding: 10px;
+}
+
+.saveButtonEdit {
+  box-sizing: border-box;
+}

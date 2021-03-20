@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap');
+
+.artcWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 50px;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.artcWrapperMobile {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 50px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.artcTitle {
+    width: 100%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 30px;
+    justify-content: center;    
+}
+
+.artcTitleMobile {
+    width: 100%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: center;    
+}
+
+.artcText {
+    width: 100%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.artcTextMobile {
+    width: 100%;
+    color: white;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 14px;
+    justify-content: center;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.artcImg {
+    width: 80%;
+    justify-content: center;
+    align-self: center;   
+}
+
+.artcImgMobile {
+    width: 100%;
+    justify-content: center;
+    align-self: center;   
+}
+
+.bodyWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}

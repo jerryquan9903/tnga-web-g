@@ -1,0 +1,149 @@
+body {
+    color: #FFFFFF;
+    height: auto;
+    min-height: 100% !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+.backgroundAdminAbout {
+    top: 150px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    background-color: white;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.containerEdit {
+  width: 60%;
+  margin: 0 auto;
+  height: auto;
+  min-height: 100% !important;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.textBoxEdit {
+  margin-top: 70px;
+  margin-left: auto;
+  width: 500px;
+  height: auto;
+  min-height: 900px !important;
+  background-color: #000000;
+  font-size: 20px;
+  position: relative;
+  animation: fade-in 1s;
+}
+
+.headTitle {
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  color: white;
+}
+
+.subTitle {
+  margin-top: -20px;
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+
+.aboutText {
+  text-align: justify;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: rgba(231, 231, 231, 0.637);
+}
+
+.imgwrapper {
+  margin-top: 20px;
+  width: 1000px;
+  height: 700px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.portrait {
+  width: 800px;
+  height: 800px;
+  position: relative;
+  align-self: flex-start;
+  animation: fade-in 1s;
+}
+
+.editDiv {
+  padding-left: 2px;
+  padding-right: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+.editDivBody {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ebutton {
+  border: none;
+  background-color: black;
+}
+
+.editHead {
+  width: 400px;
+  height: 60px;
+  font-size: 42px;
+}
+
+.editBody {
+  width: 400px;
+  height: 800px;
+  font-size: 20px;
+}
+
+.buttonWrapper {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.saveButton {
+  width: 100px;
+  height: 40px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+.saveText {
+  font-size: 18px;
+  margin: 0;
+}

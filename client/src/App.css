@@ -1,0 +1,829 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100% !important;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.loader {
+  padding-top: 150px;
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 1000px;
+  align-content: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+
+.menuItem {
+  text-decoration: none;
+  margin: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 200;
+  font-size: 12px;
+  animation: fade-in 1s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+.footerItem {
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  animation: fade-in 1s;
+}
+
+.footerImage {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* ABOUT */
+
+.background {
+  top: 150px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  background-color: white;
+}
+
+.backgroundMobile {
+  top: 150px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  background-color: white;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  height: 1000px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.containerMobile {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.textBox {
+  margin-top: 70px;
+  margin-left: auto;
+  width: 500px;
+  height: auto;
+  min-height: 900px !important;
+  background-color: #000000;
+  font-size: 20px;
+  position: relative;
+  animation: fade-in 1s;
+}
+
+.textBoxMobile {
+  width: 100%;
+  height: auto;
+  min-height: 500px !important;
+  background-color: #000000;
+  font-size: 20px;
+  position: relative;
+  animation: fade-in 1s;
+}
+
+.title {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  color: white;
+}
+
+.titleSmall {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -20px;
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+
+.titleSmall-2 {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -20px;
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+
+.aboutText {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color: rgba(231, 231, 231, 0.637);
+}
+
+.imgWrapper {
+  margin-top: 20px;
+  width: 1000px;
+  height: 700px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imgWrapperMobile {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.portrait {
+  width: 800px;
+  height: 800px;
+  position: relative;
+  align-self: flex-start;
+  animation: fade-in 1s;
+}
+
+.portraitMobile {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  align-self: flex-start;
+  animation: fade-in 1s;
+}
+
+/* ADMIN */
+
+.loginForm {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+  width: 30%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.failedText {
+  color: red;
+  font-size: 12px;
+}
+
+/* ADMIN-ABOUT */
+.backgroundAdminAbout {
+  top: 150px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  background-color: white;
+}
+
+.containerEditAdminAbout {
+width: 60%;
+margin: 0 auto;
+height: auto;
+min-height: 100% !important;
+padding-bottom: 150px;
+display: flex;
+flex-direction: row;
+align-self: center;
+}
+
+.textBoxEditAdminAbout {
+margin-top: 70px;
+margin-left: auto;
+width: 500px;
+height: auto;
+min-height: 900px !important;
+background-color: #000000;
+font-size: 20px;
+position: relative;
+animation: fade-in 1s;
+}
+
+.headTitleAdminAbout {
+text-align: left;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 42px;
+font-weight: 500;
+color: white;
+}
+
+.subTitleAdminAbout {
+margin-top: -20px;
+text-align: left;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 30px;
+font-weight: 300;
+color: white;
+}
+
+.aboutTextAdminAbout {
+text-align: justify;
+font-family: 'EB Garamond', serif;
+font-size: 20px;
+color: rgba(231, 231, 231, 0.637);
+}
+
+.imgwrapperAdminAbout {
+margin-top: 20px;
+width: 1000px;
+height: 700px;
+position: absolute;
+display: flex;
+justify-content: flex-start;
+}
+
+.portraitAdminAbout {
+width: 800px;
+height: 800px;
+position: relative;
+align-self: flex-start;
+animation: fade-in 1s;
+}
+
+.editDivAdminAbout {
+padding-left: 2px;
+padding-right: 20px;
+padding-top: 20px;
+display: flex;
+flex-direction: row;
+align-self: flex-start;
+justify-content: flex-start;
+}
+
+.editDivBodyAdminAbout {
+margin-top: -20px;
+display: flex;
+flex-direction: column;
+}
+
+.ebuttonAdminAbout {
+border: none;
+background-color: black;
+}
+
+.editHeadAdminAbout {
+width: 400px;
+height: 60px;
+font-size: 42px;
+}
+
+.editBodyAdminAbout {
+width: 400px;
+height: 800px;
+font-size: 20px;
+font-family: Roboto;
+}
+
+.buttonWrapperAdminAbout {
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.saveButtonAdminAbout {
+width: 100px;
+height: 40px;
+margin: auto;
+background-color: white;
+border-radius: 10px;
+border: none;
+}
+
+.saveTextAdminAbout {
+font-size: 18px;
+margin: 0;
+}
+
+/* ADMIN-ARTICLE */
+
+.textAreaAdminArticle {
+  width: 600px;
+  height: 400px;
+}
+
+.addButtonAdminArticle {
+  height: 100%;
+}
+
+.textAreaAddAdminArticle {
+  width: 600px;
+  height: 400px;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.titleAddAdminArticle {
+  width: 600px;
+  height: 100px;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.formGridAddAdminArticle {
+  display: grid;
+  grid-template-columns: 80px 600px 50px;
+  grid-column-gap: 20px;
+  justify-items: center;
+  padding: 10px;
+}
+
+.saveButtonAddAdminArticle {
+box-sizing: border-box;
+}
+
+/* ARTICLE */
+
+.artcWrapperArticle {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-top: 50px;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.artcWrapperMobileArticle {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding-top: 50px;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.artcTitleArticle {
+  width: 100%;
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 30px;
+  justify-content: center;  
+  animation: fade-in 1s;  
+}
+
+.artcTitleMobileArticle {
+  width: 100%;
+  color: white;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: center;
+  animation: fade-in 1s;
+}
+
+.artcTextArticle {
+  width: 100%;
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  justify-content: center;
+  text-align: justify;
+  line-height: 150%;
+  animation: fade-in 1s;
+}
+
+.artcTextMobileArticle {
+  width: 100%;
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  justify-content: center;
+  text-align: justify;
+  line-height: 150%;
+  animation: fade-in 1s;
+}
+
+.artcImgArticle {
+  width: 80%;
+  justify-content: center;
+  align-self: center;
+  animation: fade-in 1s;
+}
+
+.artcImgMobileArticle {
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+  animation: fade-in 1s;   
+}
+
+.bodyWrapperArticle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  animation: fade-in 1s;
+}
+
+/* PROJECTS */
+
+.projectWrapper {
+  background-color: black;
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  align-content: center;
+}
+
+.projectWrapperMobile {
+  background-color: black;
+  padding-top: 50px;
+  width: 100%;
+  margin: auto;
+  align-content: center;
+}
+
+/* SINGLE PAGE */
+
+.gridAndButtonWrapperSinglePage {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  align-items: center;
+}
+
+.gridAndButtonWrapperMobileSinglePage {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+}
+
+.gridWrapperSinglePage {
+  display: grid;
+  color: white;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 100px;
+  grid-row-gap: 100px; 
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.gridWrapperMobileSinglePage {
+  display: grid;
+  color: white;
+  grid-template-columns: 90%;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px; 
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+.linkItemSinglePage {
+  text-decoration: none;
+  color: white;
+}
+
+.imgArticleSinglePage {
+  width: 600px;
+  height: 400px;
+  animation: fade-in 1s;
+}
+
+.imgMobileSinglePage {
+  width: 100%;
+  height: 100%;
+  animation: fade-in 1s;
+}
+
+.txtArticleSinglePage {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: justify;
+  animation: fade-in 1s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.txtArticleMobileSinglePage {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: justify;
+  animation: fade-in 1s;
+}
+
+.subArticleSinglePage {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  padding-top: 20px;
+  text-align: justify;
+  animation: fade-in 1s;
+}
+
+.subArticleMobileSinglePage {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  padding-top: 20px;
+  text-align: justify;
+  animation: fade-in 1s;
+}
+
+.changePageButtonSinglePage {
+  width: 40px !important;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  font-family: Roboto;
+  font-size: 16px;
+  padding: 6px;
+  margin-left: 12px;
+  animation: fade-in 1s;
+}
+
+.buttonContainerSinglePage {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  animation: fade-in 1s;
+}
+
+/* THINK */
+
+.mainThink {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+}
+
+.allTextThink {
+  padding-top: 18%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 100% !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigTextThink {
+  width: 80%;
+  text-align: center;
+  margin: 0;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+  animation: fade-in 1s;
+}
+
+.smallTextThink {
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'Inter';
+  font-weight: 300;
+  padding-bottom: 550px;
+  width: 80%;
+  font-size: 15px;
+  color: white;
+  animation: fade-in 1s;
+  text-align: center;
+}
+
+video {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.rpVideoThink {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* WORK */
+
+.mainLogoWork {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    text-align: center;
+
+}
+
+.clientsWork {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 30px;
+  align-self: center;
+  justify-content: center;
+  margin: auto;
+  animation: fade-in 1s;
+  color: black;
+}
+
+.logoWork {
+  width: 100%;
+  animation: fade-in 1s;
+}
+
+/* DELETE-ARTICLE */
+.deleteArticleWrapperDelete {
+  display: grid;
+  color: black;
+  grid-template-columns: 80%;
+  height: 100%;
+}
+
+.singleArticleWrapperDelete {
+  display: grid;
+  grid-template-columns: 75% 15% 10%;
+  grid-template-rows: 100%;
+  flex-direction: row;
+}
+
+.deleteButtonDelete {
+  height: 100%;
+}
+
+/* EDIT-ARTICLE */
+
+.editArticleWrapperEdit {
+  display: grid;
+  color: black;
+  grid-template-columns: 80%;
+  height: 100%;
+}
+
+.singleEditArticleWrapperEdit {
+  display: grid;
+  grid-template-columns: 75% 15% 10%;
+  grid-template-rows: 100%;
+  flex-direction: row;
+}
+
+.editButtonEdit {
+  height: 100%;
+}
+
+.textAreaEdit {
+  width: 600px;
+  height: 400px;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.titleEdit {
+  width: 600px;
+  height: 100px;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.formGridEdit {
+  display: grid;
+  grid-template-columns: 80px 600px 50px;
+  grid-column-gap: 20px;
+  justify-items: center;
+  padding: 10px;
+}
+
+.saveButtonEdit {
+box-sizing: border-box;
+}

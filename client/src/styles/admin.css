@@ -1,0 +1,22 @@
+.loginForm {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    width: 30%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.failedText {
+    color: red;
+    font-size: 12px;
+}
